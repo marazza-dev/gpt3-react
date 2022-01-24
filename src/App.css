@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 
-.gradient__bg {
+.gradient--bg {
   /* ff 3.6+ */
   background: -moz-radial-gradient(
     circle at 3% 25%,
@@ -51,18 +51,18 @@ a {
   );
 }
 
-.gradient__text {
+.gradient--text {
   background: var(--gradient-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.section__padding {
+.section--padding {
   padding: 4rem 6rem;
 }
 
-.section__margin {
+.section--margin {
   margin: 4rem 6rem;
 }
 .scale-up-center {
@@ -93,19 +93,19 @@ a {
 }
 
 @media screen and (max-width: 43.75rem) {
-  .section__padding {
+  .section--padding {
     padding: 4rem;
   }
-  .section__margin {
+  .section--margin {
     margin: 4rem;
   }
 }
 
 @media screen and (max-width: 34.375rem) {
-  .section__padding {
+  .section--padding {
     padding: 4rem 2rem;
   }
-  .section__margin {
+  .section--margin {
     margin: 4rem 2rem;
   }
 }
