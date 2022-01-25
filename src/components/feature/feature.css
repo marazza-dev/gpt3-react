@@ -1,0 +1,59 @@
+.gpt3--features-container-feature {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 1rem;
+}
+.gpt3--features-container-feature-title {
+  flex: 1;
+  max-width: 11.25rem;
+  margin-right: 2rem;
+  position: relative;
+}
+.gpt3--features-container-feature-title h1 {
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.5rem;
+  letter-spacing: -0.04rem;
+  color: #fff;
+}
+.gpt3--features-container-feature-title::after {
+  content: "";
+  width: 2.375rem;
+  height: 0.1875rem;
+  position: absolute;
+  top: -0.75rem;
+  left: 0;
+  background: var(--gradient-bar);
+}
+
+.gpt3--features-container-feature-text {
+  display: flex;
+  flex: 2;
+  max-width: 24.375rem;
+}
+.gpt3--features-container-feature-text p {
+  font-family: var(--font-family);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--color-text);
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3--features-container-feature-title h1 {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+  }
+  .gpt3--features-container-feature-title p {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+  }
+
+  .gpt3--features-container-feature {
+    margin: 1rem 0;
+  }
+}
