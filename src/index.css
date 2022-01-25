@@ -11,4 +11,10 @@
   --color-blog: #042c54;
   --color-text: #81afdd;
   --color-subtext: #ff8a71;
+
+  /* Breakpoints
+  large --> 1050px / 65.625rem
+  medium --> 700px / 43.75rem
+  small --> 550px / 34.375rem
+  */
 }
