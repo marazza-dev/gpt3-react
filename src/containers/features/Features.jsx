@@ -23,7 +23,7 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <div className='gpt3--features section--padding' id='features'>
+    <div className='gpt3--features section--padding' id='feature'>
       <div className='gpt3--features-heading'>
         <h1 className='gradient--text'>
           The Future is Now and You Just Need To Realize It. Step into Future
