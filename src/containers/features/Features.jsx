@@ -37,6 +37,7 @@ const Features = () => {
             title={item.title}
             text={item.text}
             key={item.title + index}
+            classCustom='gpt3--features-container-feature-text'
           />
         ))}
       </div>

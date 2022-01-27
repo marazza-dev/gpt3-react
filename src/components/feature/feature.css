@@ -35,6 +35,7 @@
   flex: 2;
   max-width: 24.375rem;
 }
+
 .gpt3--features-container-feature-text p {
   font-family: var(--font-family);
   font-size: 0.875rem;

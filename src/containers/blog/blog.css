@@ -5,7 +5,7 @@
 
 .gpt3--blog-heading {
   width: 100%;
-  text-align: left;
+  text-align: center;
   margin-bottom: 5rem;
 }
 .gpt3--blog-heading h1 {
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 990px) {
   .gpt3--blog-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .gpt3--blog-container-groupA {
     margin: 2rem 0;
@@ -53,6 +53,9 @@
   .gpt3--blog-container-groupA .gpt3--blog-container-article {
     width: 100%;
   }
+  .gpt3--blog-heading {
+    text-align: left;
+  }
   .gpt3--blog-heading h1 {
     font-size: 2.875rem;
     line-height: 3.25rem;
@@ -63,5 +66,8 @@
   .gpt3--blog-heading h1 {
     font-size: 2.125rem;
     line-height: 2.625rem;
+  }
+  .gpt3--blog-container-groupA .gpt3--blog-container-article-image {
+    height: 100%;
   }
 }

@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 
 .gpt3--brand div {
@@ -13,4 +14,10 @@
   max-width: 9.375rem;
   min-width: 7.5rem;
   margin: 1rem;
+}
+
+@media screen and (max-width: 34.375rem) {
+  .gpt3--brand {
+    gap: 1rem;
+  }
 }

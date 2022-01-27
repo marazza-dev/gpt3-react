@@ -14,40 +14,53 @@ a {
   text-decoration: none;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .gradient--bg {
   /* ff 3.6+ */
+
+  /* ff 3.6+ */
   background: -moz-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 98%
+    circle at 3% 10%,
+    rgba(1, 50, 103, 1) 0%,
+    rgba(0, 40, 83, 1) 10%,
+    rgba(4, 12, 24, 1) 99%
   );
 
   /* safari 5.1+,chrome 10+ */
   background: -webkit-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 98%
+    circle at 3% 10%,
+    rgba(1, 50, 103, 1) 0%,
+    rgba(0, 40, 83, 1) 10%,
+    rgba(4, 12, 24, 1) 99%
   );
 
   /* opera 11.10+ */
   background: -o-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 98%
+    circle at 3% 10%,
+    rgba(1, 50, 103, 1) 0%,
+    rgba(0, 40, 83, 1) 10%,
+    rgba(4, 12, 24, 1) 99%
   );
 
   /* ie 10+ */
   background: -ms-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 98%
+    circle at 3% 10%,
+    rgba(1, 50, 103, 1) 0%,
+    rgba(0, 40, 83, 1) 10%,
+    rgba(4, 12, 24, 1) 99%
   );
 
   /* global 92%+ browsers support */
   background: radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 98%
+    circle at 3% 10%,
+    rgba(1, 50, 103, 1) 0%,
+    rgba(0, 40, 83, 1) 10%,
+    rgba(4, 12, 24, 1) 99%
   );
 }
 
@@ -103,9 +116,9 @@ a {
 
 @media screen and (max-width: 34.375rem) {
   .section--padding {
-    padding: 4rem 2rem;
+    padding: 2rem;
   }
   .section--margin {
-    margin: 4rem 2rem;
+    margin: 2rem;
   }
 }
