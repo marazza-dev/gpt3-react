@@ -24,6 +24,7 @@
 .gpt3--navbar-links-container {
   display: flex;
   flex-direction: row;
+  gap: 3rem;
 }
 
 .gpt3--navbar-sign {
@@ -101,6 +102,12 @@
 
 .gpt3--navbar-menu-container-links-sign {
   display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .gpt3--navbar-links-container {
+    gap: inherit;
+  }
 }
 
 @media screen and (max-width: 65.625rem) {

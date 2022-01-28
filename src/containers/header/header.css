@@ -48,6 +48,11 @@
   color: #fff;
 }
 
+.gpt3--header-content-input input:focus {
+  border: 2px solid var(--color-subtext);
+  border-radius: 5px;
+}
+
 .gpt3--header-content-input button {
   flex: 0.6;
   width: 100%;
@@ -58,12 +63,18 @@
   border-bottom-right-radius: 5px;
   border: none;
   font-family: var(--font-family);
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.25rem;
   line-height: 27px;
   outline: none;
   cursor: pointer;
   padding: 0 1rem;
+}
+
+.gpt3--header-content-input button:hover {
+  color: var(--color-subtext);
+  background: transparent;
+  border: 1px solid var(--color-subtext);
 }
 
 .gpt3--header-content-people {

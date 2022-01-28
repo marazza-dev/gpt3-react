@@ -140,6 +140,10 @@
     padding: 2rem;
   }
 
+  .gpt3--whatgpt3-heading {
+    margin: 2rem 0 2rem;
+  }
+
   .gpt3--whatgpt3-container .gpt3--features-container-feature {
     margin: 1rem 0;
     width: 100%;
