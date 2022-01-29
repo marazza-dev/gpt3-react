@@ -1,7 +1,8 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import "./header.css";
 import people from "../../assets/people.png";
-import ai from "../../assets/ai.png";
+import Loading from "../../components/loading/Loading";
+const LazyHeader = lazy(() => import("./LazyHeader.jsx"));
 
 const Header = () => {
   return (
@@ -25,9 +26,9 @@ const Header = () => {
           <p>1600 people requested access a visit in last 24 hours</p>
         </div>
       </div>
-      <div className='gpt3--header-image'>
-        <img src={ai} alt='AI image' />
-      </div>
+      <Suspense fallback={<Loading />}>
+        <LazyHeader />
+      </Suspense>
     </div>
   );
 };

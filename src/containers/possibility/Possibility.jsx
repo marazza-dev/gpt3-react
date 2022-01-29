@@ -1,13 +1,15 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import "./possibility.css";
-import possibilityImage from "../../assets/possibility.png";
+import Loading from "../../components/loading/Loading";
+
+const LazyPossibility = lazy(() => import("./LazyPossibility.jsx"));
 
 const Possibility = () => {
   return (
     <div className='gpt3--possibility section--padding' id='possibility'>
-      <div className='gpt3--possibility-image'>
-        <img src={possibilityImage} alt='possibility image' />
-      </div>
+      <Suspense fallback={<Loading />}>
+        <LazyPossibility />
+      </Suspense>
       <div className='gpt3--possibility-content'>
         <h4>Request Early Access to Get Started</h4>
         <h1 className='gradient--text'>
